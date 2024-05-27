@@ -1,7 +1,6 @@
 .body { 
-    font-family:"Roboto",
-        sans-serif ;
-     color: #434455;
+    font-family:"Roboto", sans-serif ;
+    color: #434455;
     background-color: #FFFFFF
      }
      ul {
@@ -84,7 +83,7 @@
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
- }
+       }
 .benefits-item-text { 
         font-size: 16px;
         line-height: 1.5;
@@ -129,7 +128,9 @@
         text-align: center;
         color: #434455;
 }
-       <!--PORTFOLIO-->
+       <!--SEC3-TEAM-->
+
+       <!--SEC4-PORTFOLIO-->
 .subtitle2 { 
         font-weight: 700;
         font-size: 36px;
@@ -154,7 +155,7 @@
         letter-spacing: 0.02em;
         color: #434455;
         }
-         <!--PORTFOLIO-->
+         <!--SEC4-PORTFOLIO-->
 
          <!--FOOTER-->
 

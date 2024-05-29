@@ -10,7 +10,7 @@
         text-decoration: none;
       }
       
-            <!--HEADER-->
+           /* <!--HEADER--> */
     .header {
         background-color:#2e2f42;
      }
@@ -36,8 +36,10 @@
         height: 72px;
      }
     .header-menu-link:hover,
-    .header-menu-link:active { 
+    .header-menu-link:active,
+    .header-menu-link:focus{ 
     color:#404bbf 
+    
     }
 
     .address { 
@@ -50,9 +52,9 @@
         letter-spacing: 0.02em;
         color: #434455;
     }
-        <!---HEADER--->
+       /* <!---HEADER---> */
 
-        <!--Sec1-SOLUTION-->
+       /* <!--Sec1-SOLUTION--> */
         
 .solutions { 
     background-color: #2e2f42;
@@ -73,9 +75,9 @@
     letter-spacing: 0.04em;
     color: #fff;
 }
-       <!--SEC1-SOLUTIONS-->
+       /*<!--SEC1-SOLUTIONS-->*/
 
-        <!--SEC2-BENEFITS-->
+        /*<!--SEC2-BENEFITS-->*/
 
  .visually-hidden {
      position: absolute;
@@ -111,7 +113,7 @@
         color: #2e2f42;
  }
 
-         <!--SEC3-TEAM-->
+         /* <!--SEC3-TEAM--> */
 .team { 
      background-color: #F4F4FD
  }
@@ -140,9 +142,9 @@
         text-align: center;
         color: #434455;
 }
-       <!--SEC3-TEAM-->
+       /* <!--SEC3-TEAM-->
 
-       <!--SEC4-PORTFOLIO-->
+       <!--SEC4-PORTFOLIO--> */
 .subtitle2 { 
         font-weight: 700;
         font-size: 36px;
@@ -167,9 +169,10 @@
         letter-spacing: 0.02em;
         color: #434455;
         }
-         <!--SEC4-PORTFOLIO-->
+         /* /* <!--SEC4-PORTFOLIO--> */
 
-         <!--FOOTER-->
+         /* <!--FOOTER--> */ 
+
 
 .footer { 
     background-color: #2e2f42;
@@ -192,3 +195,5 @@
     letter-spacing: 0.02em;
     color: #f4f4fd;
   }
+
+  /* FOOTER */

@@ -34,7 +34,7 @@
         color:#2e2f42;
      }
     .header-menu-link:hover,
-    .header-menu-link:active 
+    .header-menu-link:focus 
     { 
     color:#404bbf 
     }
@@ -75,10 +75,11 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    background-color:#4d5ae5 ;
     cursor: pointer;
 }
 .button-title:hover,
-.button-title:active { 
+.button-title:focus { 
     background-color: #404bbf;
 }
 
@@ -86,17 +87,8 @@
 
         /*<!--SEC2-BENEFITS-->*/
 
- .visually-hidden {
-     position: absolute;
-     width: 1px;
-     height: 1px;
-     margin: -1px;
-     border: 0;
-     padding: 0;
-     white-space: nowrap;
-     clip-path: inset(100%);
-     clip: rect(0 0 0 0);
-     overflow: hidden;
+ .benefits-list { 
+    background-color:#FFFFFF ;
  }
 .benefits-subtitle { 
         font-weight: 500;

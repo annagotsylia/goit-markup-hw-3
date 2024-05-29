@@ -36,10 +36,9 @@
         height: 72px;
      }
     .header-menu-link:hover,
-    .header-menu-link:active,
-    .header-menu-link:focus{ 
+    .header-menu-link:active 
+    { 
     color:#404bbf 
-    
     }
 
     .address { 
@@ -52,6 +51,10 @@
         letter-spacing: 0.02em;
         color: #434455;
     }
+    .address-link:hover,
+    .adress-link:active { 
+        color: #404bbf;
+    }
        /* <!---HEADER---> */
 
        /* <!--Sec1-SOLUTION--> */
@@ -59,13 +62,13 @@
 .solutions { 
     background-color: #2e2f42;
 }
-.solutions.title { 
+.solutions-title { 
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #fff;
+    color:#FFFFFF;
  }
 
 .button-title {
@@ -73,8 +76,14 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #FFFFFF;
+    cursor: pointer;
 }
+.button-title:hover,
+.button-title:active { 
+    background-color: #404bbf;
+}
+
        /*<!--SEC1-SOLUTIONS-->*/
 
         /*<!--SEC2-BENEFITS-->*/
@@ -118,14 +127,16 @@
      background-color: #F4F4FD
  }
 
- .subtitle2 { 
-    text-transform: capitalize
-    font-weight: 700;
+ .team-subtitle { 
+    text-transform: capitalize;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+}
+.team-list { 
+    background-color: #FFFFFF;
 }
 .team-list-subtitle {
     font-weight: 500;
@@ -145,15 +156,14 @@
        /* <!--SEC3-TEAM-->
 
        <!--SEC4-PORTFOLIO--> */
-.subtitle2 { 
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-align: center;
-        text-transform: capitalize;
-        color: #2e2f42;
-           }
+.portfolio-subtitle {
+    text-transform: capitalize;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
     
 .portfolio-list { 
     font-weight: 500;
@@ -179,9 +189,10 @@
 }
 
 .footer-logo {
+     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;

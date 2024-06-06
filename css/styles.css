@@ -12,11 +12,9 @@
       
            /* <!--HEADER--> */
     .header {
-        background-color:#2e2f42;
      }
     .header-logo { 
         font-family: "Raleway", sans-serif;
-        font-weight: 700;
         font-size:18px ;
         line-height: 1.17;
         letter-spacing: 0.03em;
@@ -60,7 +58,6 @@
     background-color: #2e2f42;
 }
 .solutions-title { 
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -101,14 +98,6 @@
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
- }
-.subtitle2 { 
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
  }
 
          /* <!--SEC3-TEAM--> */
